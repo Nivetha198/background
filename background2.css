@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.container1{
+    height: 700px;
+    width: 800px;
+    background-image: url(./326299492125201.webp);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    background-attachment: fixed;
+    font-size: 30px;
+    text-align: left;
+    
+    text-decoration: wavy;
+    text-shadow: 20px;
+    color: blue;
+    opacity: 30%;
+}
+.container2{
+    height: 500px;
+    width: 600px;
+    background-image: url(./background-editing-png-thumbnail-1638812741.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}

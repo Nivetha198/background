@@ -1,0 +1,38 @@
+*{
+    margin: 0; 
+    border: 0; 
+    box-sizing: border-box; 
+}
+
+h1{
+    color: blue;
+    background-color: azure;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
+.container1{
+    height: 400px;
+    width: 800px;
+    border: 20px solid red;
+    background-image: url(./49048260-583c-4945-a120-1df8c88e28ed.jpg);
+  background-origin: padding-box; 
+    background-repeat: no-repeat;
+    
+     background-size: cover; 
+     text-align: justify;
+   
+   background-attachment: fixed;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.container2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align:center;
+   font-size: 15px;
+   font-style: italic;
+   
+}
