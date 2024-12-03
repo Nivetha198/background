@@ -6,28 +6,31 @@
 
 .container1{
     border:2px black;
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 700px;
     border: dashed;
 position:relative;
 }
 
 .container2{
     border: 3px solid red;
-    height:20px;
-    width:20px;
+    height:200px;
+    width:200px;
     position: relative;
+    top:10%;
 
 }
 
-.box{
-    width:150px;
-    height:150px;
-    color: black;
-    padding: 1rem;
-}
+
 
 .absolute{
+    border: 2px ;
     background-color: blueviolet;
     position: absolute;
+   
+    left: 200px;
+    z-index: 4;
 }
 
 .relative{
@@ -42,12 +45,14 @@ left: 100px;
     border: 2px;
     background-color: chartreuse;
     position: fixed;
-    top: 100px;
+    top: 500px;
 }
 
 .sticky{
+    border: 2px;
     background-color: cyan;
     position: sticky;
+    top:200px;
 }
 
 
