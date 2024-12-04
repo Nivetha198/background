@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.parent {
+
+margin:auto;
+
+width: 100%;
+
+
+}
+
+.row {
+
+    display: flex;
+   
+    text-align: center;
+   
+}
+
+.column {
+    
+    width: 100%;
+    border: 1px solid black;
+   
+}
